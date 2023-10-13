@@ -1,0 +1,14 @@
+server:
+  port: 9665
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    defer-datasource-initialization: true
+spring-doc:
+  swagger-ui:
+    path: /swagger-ui
+  api-docs:
+    path: /ecomerce/api-docs
+    use-root-path: true    
